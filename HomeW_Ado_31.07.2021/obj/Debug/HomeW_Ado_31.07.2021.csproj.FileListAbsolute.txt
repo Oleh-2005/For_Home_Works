@@ -1,0 +1,7 @@
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\bin\Debug\HomeW_Ado_31.07.2021.exe.config
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\bin\Debug\HomeW_Ado_31.07.2021.exe
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\bin\Debug\HomeW_Ado_31.07.2021.pdb
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\obj\Debug\HomeW_Ado_31.07.2021.csproj.AssemblyReference.cache
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\obj\Debug\HomeW_Ado_31.07.2021.csproj.CoreCompileInputs.cache
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\obj\Debug\HomeW_Ado_31.07.2021.exe
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_Ado_31.07.2021\HomeW_Ado_31.07.2021\obj\Debug\HomeW_Ado_31.07.2021.pdb

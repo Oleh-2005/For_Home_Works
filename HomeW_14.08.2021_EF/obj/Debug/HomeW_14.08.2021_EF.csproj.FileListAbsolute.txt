@@ -1,0 +1,14 @@
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\HomeW_14.08.2021_EF.exe.config
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\HomeW_14.08.2021_EF.exe
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\HomeW_14.08.2021_EF.pdb
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14.08.2021_EF.csproj.AssemblyReference.cache
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14.08.2021_EF.csproj.CoreCompileInputs.cache
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14.08.2021_EF.exe
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14.08.2021_EF.pdb
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\EntityFramework.dll
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\EntityFramework.xml
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14.08.2021_EF.csproj.CopyComplete
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14._08._2021_EF.Migrations.HomeWork.resources
+D:\Programs\WF and Ado.NET\HomeWorks_WfAndAdo.NET\HomeW_14.08.2021_EF\HomeW_14.08.2021_EF\obj\Debug\HomeW_14.08.2021_EF.csproj.GenerateResource.cache

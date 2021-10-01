@@ -11,6 +11,7 @@ namespace HomeW_WF_Ado_31._08._2021
         public ApplicationContext()
             : base("name=ApplicationContext")
         {
+            Database.SetInitializer<ApplicationContext>(new DropCreateDatabaseAlways<ApplicationContext>());
         }
 
 
@@ -18,6 +19,5 @@ namespace HomeW_WF_Ado_31._08._2021
         public virtual DbSet<Position> Positions { get; set; }
 
     }
-
 
 }

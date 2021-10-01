@@ -22,21 +22,20 @@ namespace HomeW_WF_Ado_31._08._2021
 
             //Use your DB , because my loccalDB has unstandart name
 
-            //Use the code near in first code generation to get the same DB datas
 
-            //Position ps = new Position("Manager", null);
-            //Position ps2 = new Position("Director", null);
-            //Position ps3 = new Position("CEO", null);
-            //Position ps4 = new Position("Junior", null);
-            //Position ps5 = new Position("Senior", null);
-            //Position ps6 = new Position("Middle", null);
-            //context.Positions.Add(ps);
-            //context.Positions.Add(ps2);
-            //context.Positions.Add(ps3);
-            //context.Positions.Add(ps4);
-            //context.Positions.Add(ps5);
-            //context.Positions.Add(ps6);
-            //context.SaveChanges();
+            Position ps = new Position("Manager", null);
+            Position ps2 = new Position("Director", null);
+            Position ps3 = new Position("CEO", null);
+            Position ps4 = new Position("Junior", null);
+            Position ps5 = new Position("Senior", null);
+            Position ps6 = new Position("Middle", null);
+            context.Positions.Add(ps);
+            context.Positions.Add(ps2);
+            context.Positions.Add(ps3);
+            context.Positions.Add(ps4);
+            context.Positions.Add(ps5);
+            context.Positions.Add(ps6);
+            context.SaveChanges();
 
 
             foreach (var item in context.Positions)
@@ -53,6 +52,7 @@ namespace HomeW_WF_Ado_31._08._2021
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            
             int age = 0;
             Position ps = new Position();
             try
@@ -65,27 +65,28 @@ namespace HomeW_WF_Ado_31._08._2021
                         ps = item;
                     }
                 }
+                Employee emp = new Employee
+                {
+                    Name = tbxName.Text,
+                    Surname = tbxSurname.Text,
+                    Age = age,
+                    Position = ps
+                };
+                foreach (Position item in context.Positions)
+                {
+                    if (ps == item)
+                    {
+                        item.Employees.Add(emp);
+                    }
+                }
+                context.Employees.Add(emp);
             }
             catch(Exception ex )
             {
                 Console.WriteLine(ex);
                 return;
             }
-            Employee emp = new Employee
-            {
-                Name = tbxName.Text,
-                Surname = tbxSurname.Text,
-                Age = age,
-                Position = ps
-            };
-            foreach (Position item in context.Positions)
-            {
-                if (ps == item)
-                {
-                    item.Employees.Add(emp);
-                }
-            }
-            context.Employees.Add(emp);
+            
             context.SaveChanges();
 
         }
@@ -177,6 +178,17 @@ namespace HomeW_WF_Ado_31._08._2021
                 Console.WriteLine(ex);
                 return;
             }
+        }
+
+        private void btnCreatePosition_Click(object sender, EventArgs e)
+        {
+            Position ps = new Position();
+            ps.Name = tbxPositionCreate.Text;
+            context.Positions.Add(ps);
+            context.SaveChanges();
+            cmbPosition.Items.Add(ps.Name);
+            cmbUpdatePosition.Items.Add(ps.Name);
+            tbxPositionCreate.Text = "";
         }
     }
 }

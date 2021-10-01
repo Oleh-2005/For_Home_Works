@@ -53,6 +53,9 @@ namespace HomeW_WF_Ado_31._08._2021
             this.tbxDeleteId = new System.Windows.Forms.TextBox();
             this.lblDeleteId = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnCreatePosition = new System.Windows.Forms.Button();
+            this.tbxPositionCreate = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbxName
@@ -271,11 +274,42 @@ namespace HomeW_WF_Ado_31._08._2021
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(54, 621);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 34);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Position :";
+            // 
+            // btnCreatePosition
+            // 
+            this.btnCreatePosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnCreatePosition.Location = new System.Drawing.Point(489, 594);
+            this.btnCreatePosition.Name = "btnCreatePosition";
+            this.btnCreatePosition.Size = new System.Drawing.Size(302, 61);
+            this.btnCreatePosition.TabIndex = 26;
+            this.btnCreatePosition.Text = "Create";
+            this.btnCreatePosition.UseVisualStyleBackColor = true;
+            this.btnCreatePosition.Click += new System.EventHandler(this.btnCreatePosition_Click);
+            // 
+            // tbxPositionCreate
+            // 
+            this.tbxPositionCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbxPositionCreate.Location = new System.Drawing.Point(199, 609);
+            this.tbxPositionCreate.Name = "tbxPositionCreate";
+            this.tbxPositionCreate.Size = new System.Drawing.Size(240, 34);
+            this.tbxPositionCreate.TabIndex = 27;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 587);
+            this.ClientSize = new System.Drawing.Size(871, 700);
+            this.Controls.Add(this.tbxPositionCreate);
+            this.Controls.Add(this.btnCreatePosition);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.tbxDeleteId);
             this.Controls.Add(this.lblDeleteId);
@@ -333,6 +367,9 @@ namespace HomeW_WF_Ado_31._08._2021
         private System.Windows.Forms.TextBox tbxDeleteId;
         private System.Windows.Forms.Label lblDeleteId;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCreatePosition;
+        private System.Windows.Forms.TextBox tbxPositionCreate;
     }
 }
 

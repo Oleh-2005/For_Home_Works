@@ -1,0 +1,75 @@
+﻿<Window x:Class="Wpf_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_1"
+        mc:Ignorable="d"
+        Title="Action" Height="450" Width="500" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Background="DarkGreen">
+                <TextBlock Text="Avatar" FontSize="19" Margin="40" Foreground="Beige"/>
+            </StackPanel>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="300*"/>
+                    <RowDefinition Height="200*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Background="LimeGreen">
+                    <TextBlock Text="Clash of the Titans" FontSize="19" Margin="10" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+                <StackPanel Background="MediumSeaGreen" Grid.Row="1">
+                    <TextBlock Text="Robin Hood" FontSize="19" Margin="10" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="125*"/>
+                <ColumnDefinition Width="125*"/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="160*"/>
+                    <RowDefinition Height="140*"/>
+                    <RowDefinition Height="140*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Background="LightGreen">
+                    <TextBlock Text="The Expendables" FontSize="19" Margin="10" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+                <StackPanel Background="LawnGreen" Grid.Row="1">
+                    <TextBlock Text="Red" FontSize="19" Margin="40" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+                <StackPanel Background="MediumSeaGreen" Grid.Row="2">
+                    <TextBlock Text="Dinner for Schmucks" FontSize="19" Margin="15" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="140*"/>
+                    <RowDefinition Height="140*"/>
+                    <RowDefinition Height="150*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Background="SeaGreen">
+                    <TextBlock Text="The Book of Eli" FontSize="19" Margin="10" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+                <StackPanel Background="LimeGreen" Grid.Row="1">
+                    <TextBlock Text="Sherlock Holmes" FontSize="19" Margin="20" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+                <StackPanel Background="LightGreen" Grid.Row="2">
+                    <TextBlock Text="The Bounty Hunter" FontSize="19" Margin="20" Foreground="Beige" TextWrapping="WrapWithOverflow"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

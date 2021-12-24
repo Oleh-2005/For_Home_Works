@@ -39,6 +39,12 @@ namespace CursovaServer
                     try
                     {
                         message = GetMessage();
+                        if(message == "leaveTheChat")
+                        {
+                            message = String.Format("{0} : leave the chat", userName);
+                            server.BroadcastMessage(message, this.Id);
+                            break;
+                        }
                         message = $"{userName} : {message}";
                         Console.WriteLine(message);
                         server.BroadcastMessage(message, this.Id);

@@ -60,6 +60,7 @@ namespace CursovaClient
                 {
                     MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK);
                 }
+
                 this.Dispatcher.Invoke(() =>
                 {
                     tbxName.IsEnabled = false;
@@ -105,26 +106,30 @@ namespace CursovaClient
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, $"Error", MessageBoxButton.OK);
-                    if (stream != null)
-                        stream.Close();
-                    if (client != null)
-                        client.Close();
+                    Disconnect();
                 }
 
             }
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            if (stream != null)
-                stream.Close();
-            if (client != null)
-                client.Close();
-            Environment.Exit(0); 
+            string message = "leaveTheChat";
+            byte[] data = Encoding.Unicode.GetBytes(message);
+            stream.Write(data, 0, data.Length);
+            Disconnect();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             SendMessage();
+        }
+        public void Disconnect()
+        {
+            if (stream != null)
+                stream.Close();
+            if (client != null)
+                client.Close();
+            Environment.Exit(0); 
         }
     }
 }

@@ -1,0 +1,15 @@
+D:\Шаг\CursovaClient\CursovaClient\bin\Debug\CursovaClient.exe.config
+D:\Шаг\CursovaClient\CursovaClient\bin\Debug\CursovaClient.exe
+D:\Шаг\CursovaClient\CursovaClient\bin\Debug\CursovaClient.pdb
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.csproj.AssemblyReference.cache
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\MainWindow.g.cs
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\App.g.cs
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient_MarkupCompile.cache
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient_MarkupCompile.lref
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\MainWindow.baml
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.g.resources
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.Properties.Resources.resources
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.csproj.GenerateResource.cache
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.csproj.CoreCompileInputs.cache
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.exe
+D:\Шаг\CursovaClient\CursovaClient\obj\Debug\CursovaClient.pdb

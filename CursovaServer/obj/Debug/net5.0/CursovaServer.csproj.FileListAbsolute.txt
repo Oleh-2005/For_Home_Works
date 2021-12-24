@@ -1,0 +1,16 @@
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\CursovaServer.exe
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\CursovaServer.deps.json
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\CursovaServer.runtimeconfig.json
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\CursovaServer.runtimeconfig.dev.json
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\CursovaServer.dll
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\ref\CursovaServer.dll
+D:\Шаг\CursovaClient\CursovaServer\bin\Debug\net5.0\CursovaServer.pdb
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.csproj.AssemblyReference.cache
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.AssemblyInfoInputs.cache
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.AssemblyInfo.cs
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.csproj.CoreCompileInputs.cache
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.dll
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\ref\CursovaServer.dll
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.pdb
+D:\Шаг\CursovaClient\CursovaServer\obj\Debug\net5.0\CursovaServer.genruntimeconfig.cache
